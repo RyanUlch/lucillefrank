@@ -1,0 +1,17 @@
+.titleContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.titleText {
+	font-family: var(--serifFont);
+	font-size: clamp(2rem, 5vw, 5rem);
+}
+
+.subtitleText {
+	font-family: var(--sansserifFont);
+	font-size: clamp(1rem, 4vw, 3rem);
+}

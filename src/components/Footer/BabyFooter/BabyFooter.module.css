@@ -1,0 +1,7 @@
+.bottomBar {
+	width: 100%;
+	height: clamp(3vh, 2rem, 7vh);
+	background-color: aqua;
+	position: fixed;
+	bottom: 0;
+}

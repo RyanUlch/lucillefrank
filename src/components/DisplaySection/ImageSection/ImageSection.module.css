@@ -1,0 +1,12 @@
+.section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.imageArticle {
+	width: clamp(25vw, 60rem, 30vw);
+	height: 15rem;
+	background-color: blueviolet;
+}
