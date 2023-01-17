@@ -7,11 +7,11 @@
 }
 
 .titleText {
-	font-family: var(--serifFont);
+	font-family: var(--fontSerif);
 	font-size: clamp(2rem, 5vw, 5rem);
 }
 
 .subtitleText {
-	font-family: var(--sansserifFont);
+	font-family: var(--fontSansSerif);
 	font-size: clamp(1rem, 4vw, 3rem);
 }

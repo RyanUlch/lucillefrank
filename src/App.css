@@ -1,7 +1,8 @@
 :root {
 	--bodyWidth: calc(100vw - (100vw - 100%));
-	--serifFont: 'Times New Roman', Times, serif;
-	--sansserifFont: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	--fontSerif: 'Times New Roman', Times, serif;
+	--fontSansSerif: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	--fontCursive: cursive;
 }
 
 #root {
@@ -9,5 +10,7 @@
 }
 
 body {
-	font-family: var(--sansserifFont);
+	/* Font/Text */
+	font-family: var(--fontSansSerif);
 }
+

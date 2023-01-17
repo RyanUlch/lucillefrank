@@ -1,8 +1,9 @@
 import classes from './DisplaySection.module.css';
+import { ReactNode } from 'react';
 
-const DisplaySection = (props: {children: any}) => {
+const DisplaySection = (props: {children: ReactNode}) => {
 	return (
-		<section className={classes.display}>
+		<section className='container-xl'>
 			{props.children}
 		</section>
 	)

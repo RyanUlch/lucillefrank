@@ -1,7 +1,10 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  }
+	/* Background/Color  */ /* From https://cssgradient.io/ */
+	background: rgb(56,56,156);
+	background: linear-gradient(0deg, rgba(56,56,156,1) 0%, rgba(0,212,255,1) 50%, rgba(56,56,156,1) 100%);
+}
   
   /* 	Base list for reset taken from Josh W. Comeau with permission	*/
   /*	https://www.joshwcomeau.com/css/custom-css-reset/				*/
