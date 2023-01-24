@@ -46,7 +46,6 @@ const Footer = () => {
 			</section>
 			<div className="text-center p-4" >
 				© 2023 Copyright: Lucy Frank
-			{/* <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> */}
 			</div>
 		</footer>
 	)
